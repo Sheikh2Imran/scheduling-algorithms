@@ -34,11 +34,11 @@ def FindAverageTurnAroundTime(n, ta_time):
 
 
 if __name__ == "__main__":
+    # Processes with different arrival times
     processes = [1, 2, 3]
-    n = len(processes)
-
     burst_time = [5, 9, 6]
     arrival_time = [0, 3, 6]
+    n = len(processes)
 
     waiting_time = FindWaitingTime(n, burst_time, arrival_time)
     ta_time = FindTurnAroundTime(n, burst_time, waiting_time)
