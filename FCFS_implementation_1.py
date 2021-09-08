@@ -32,6 +32,7 @@ def FindAverageTATTime(n, tat):
     return total_tat / n
 
 if __name__ =="__main__":
+    # Processes with same arrival times
     processes = [1, 2, 3]
     burst_time = [10, 5, 8]
 
